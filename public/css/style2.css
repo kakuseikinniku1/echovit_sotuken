@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  align-items: center;
+}
+header .title {
+  color: white;
+  margin-right: auto;
+  margin-left: 30px;
+}
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;
+}
+h1 {
+text-align: center;
+color: #333;
+}
+.form-group {
+margin-top: 30px;  
+margin-bottom: 30px;
+}
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+input[type="text"], textarea, input[type="file"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-sizing: border-box;
+}
+textarea {
+resize: vertical;
+height: 150px;
+}
+button {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+
+position: fixed;  /* 固定位置 */
+  bottom: 0;      /* 画面の一番下に配置 */
+  right: 0;
+
+}
+button:hover {
+background-color: #45a049;
+}
